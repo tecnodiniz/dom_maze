@@ -1,0 +1,66 @@
+
+.title { 
+  padding-top: 20px;
+}
+.title h2 {
+  color: #808080;
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.title p {
+  color: #808080;
+  font-family: Georgia, serif;
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.logo img {
+  animation: rotation 9s linear 0s  infinite normal forwards;
+  width: 50px;
+}
+@keyframes rotation {
+  0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+  
+}
+
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Media query for screens with a minimum width of 601 pixels and a maximum width of 1024 pixels */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 980px) {
+  .title {
+    padding-top: 1.75rem;
+  }
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+  }
+  .logo img {
+    width: 100px;
+  }
+
+}
